@@ -149,6 +149,16 @@ def pruefe_negative_zahl():
     else:
         print(f"Die eingegebene Zahl ist: {zahl}")
 
+def division_durch_zahl():
+    try:
+        zahl = float(input("Gib eine Zahl ein: "))
+        result = zahl / 2
+        print(f"Ergebnis der Division: {result}")
+    except ZeroDivisionError:
+        print("Fehler: Division durch Null ist nicht möglich.")
+    except ValueError:
+        print("Fehler: Ungültige Eingabe. Bitte gib eine Zahl ein.")
+
 def main():
     while True:
         print("\nWähle eine Aufgabe:")
@@ -169,7 +179,8 @@ def main():
         print("15. Benutzereingabe")
         print("16. Eingaben validieren")
         print("17. Negative Zahl")
-        print("18. Beenden")
+        print("18. Division durch Zahl")
+        print("19. Beenden")
         auswahl = input("\nWähle eine Option (1-17): ")
         if auswahl == "1":
             literale_und_bezeichner()
@@ -206,6 +217,8 @@ def main():
         elif auswahl == "17":
             pruefe_negative_zahl()
         elif auswahl == "18":
+            division_durch_zahl()
+        elif auswahl == "19":
             print("Beenden des Programms.")
             break
         else:
