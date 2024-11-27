@@ -1,8 +1,6 @@
 # --- Teil 1: Literale und Bezeichner ---
 def literale_und_bezeichner():
     # Aufgabe 1: Literale in Python
-
-    # Definiere verschiedene Literale
     ganze_zahl = 42  # Ganze Zahl (int)
     gleitkommazahl = 3.14  # Gleitkommazahl (float)
     zeichenfolge = "Hallo Welt"  # Zeichenfolge (str)
@@ -55,18 +53,15 @@ def verschachtelte_namensraeume():
 # --- Teil 3: Built-in Funktionen ---
 def built_in_funktionen():
     # Aufgabe 5: Wichtige Built-in Funktionen
-    # Verwende len() und type()
     text = "Python"
     print("Länge der Zeichenfolge:", len(text))
     print("Typ der Zeichenfolge:", type(text))
 
-    # Verwende sum(), max() und min()
     zahlen = [1, 2, 3, 4, 5]
     print("Summe der Liste:", sum(zahlen))
     print("Maximale Zahl in der Liste:", max(zahlen))
     print("Minimale Zahl in der Liste:", min(zahlen))
 
-    # Verwende sorted()
     sortierte_liste = sorted(zahlen)
     print("Sortierte Liste:", sortierte_liste)
 
@@ -79,7 +74,6 @@ def eingaben_verarbeiten():
         zahl = int(eingabe)  # Konvertiere die Eingabe in eine Zahl
         print(f"Die eingegebene Zahl ist: {zahl}")
 
-        # Überprüfe den Typ der Zahl
         if isinstance(zahl, int):
             print("Die Eingabe ist eine gültige ganze Zahl.")
         else:
@@ -228,45 +222,45 @@ def main():
         print("17. Beenden")
 
         auswahl = input("\nWähle eine Option (1-17): ")
-        
-        if auswahl == '1':
+
+        if auswahl == "1":
             literale_und_bezeichner()
-        elif auswahl == '2':
+        elif auswahl == "2":
             lokale_und_globale_variablen()
-        elif auswahl == '3':
+        elif auswahl == "3":
             verschachtelte_namensraeume()
-        elif auswahl == '4':
+        elif auswahl == "4":
             built_in_funktionen()
-        elif auswahl == '5':
+        elif auswahl == "5":
             eingaben_verarbeiten()
-        elif auswahl == '6':
+        elif auswahl == "6":
             lineare_anweisungsfolge()
-        elif auswahl == '7':
+        elif auswahl == "7":
             zahl_gerade_oder_ungerade()
-        elif auswahl == '8':
+        elif auswahl == "8":
             zahl_groesser_kleiner_oder_100()
-        elif auswahl == '9':
+        elif auswahl == "9":
             passwort_pruefen()
-        elif auswahl == '10':
+        elif auswahl == "10":
             zahl_zwischen_50_und_100()
-        elif auswahl == '11':
+        elif auswahl == "11":
             alterspruefung_fuer_autofahren()
-        elif auswahl == '12':
+        elif auswahl == "12":
             zwei_zahlen_vergleichen()
-        elif auswahl == '13':
+        elif auswahl == "13":
             print_ausgaben()
-        elif auswahl == '14':
+        elif auswahl == "14":
             escape_zeichen()
-        elif auswahl == '15':
+        elif auswahl == "15":
             benutzereingabe()
-        elif auswahl == '16':
+        elif auswahl == "16":
             eingaben_validieren()
-        elif auswahl == '17':
-            print("Programm beendet.")
+        elif auswahl == "17":
+            print("Beenden des Programms.")
             break
         else:
-            print("Ungültige Auswahl, bitte versuche es erneut.")
+            print("Ungültige Auswahl, versuche es erneut.")
 
-# Start des Programms
+# Hauptprogramm starten
 if __name__ == "__main__":
     main()
