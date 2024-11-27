@@ -1,5 +1,35 @@
 # Python-Projekt mit Git
 
+## Inhaltsverzeichnis
+
+1. [Projektaufgabe: Python-Projekt mit Git](#projektaufgabe-python-projekt-mit-git)
+2. [Teil 1: Literale und Bezeichner](#teil-1-literale-und-bezeichner)
+    1. [Aufgabe 1: Literale in Python](#aufgabe-1-literale-in-python)
+    2. [Aufgabe 2: Bezeichner und Kommentare](#aufgabe-2-bezeichner-und-kommentare)
+3. [Teil 2: Namensräume](#teil-2-namensräume)
+    1. [Aufgabe 3: Lokale und globale Variablen](#aufgabe-3-lokale-und-globale-variablen)
+    2. [Aufgabe 4: Verschachtelte Namensräume](#aufgabe-4-verschachtelte-namensräume)
+4. [Teil 3: Built-in Funktionen](#teil-3-built-in-funktionen)
+    1. [Aufgabe 5: Wichtige Built-in Funktionen](#aufgabe-5-wichtige-built-in-funktionen)
+    2. [Aufgabe 6: Eingaben verarbeiten](#aufgabe-6-eingaben-verarbeiten)
+5. [Teil 4: Anweisungsfolgen](#teil-4-anweisungsfolgen)
+    1. [Aufgabe 1: Lineare Anweisungsfolge](#aufgabe-1-lineare-anweisungsfolge)
+    2. [Aufgabe 2: Kontrollstrukturen](#aufgabe-2-kontrollstrukturen)
+6. [Teil 5: Print-Ausgaben und Escape-Zeichen](#teil-5-print-ausgaben-und-escape-zeichen)
+    1. [Aufgabe 3: Grundlegende Print-Ausgabe](#aufgabe-3-grundlegende-print-ausgabe)
+    2. [Aufgabe 4: Verwendung von Escape-Zeichen](#aufgabe-4-verwendung-von-escape-zeichen)
+7. [Teil 6: Input und Output](#teil-6-input-und-output)
+    1. [Aufgabe 5: Benutzereingabe](#aufgabe-5-benutzereingabe)
+    2. [Aufgabe 6: Eingaben validieren](#aufgabe-6-eingaben-validieren)
+8. [Teil 7: Datentypen und Variablen](#teil-7-datentypen-und-variablen)
+    1. [Aufgabe 7: Variablen mit verschiedenen Datentypen](#aufgabe-7-variablen-mit-verschiedenen-datentypen)
+    2. [Aufgabe 8: Typkonvertierung](#aufgabe-8-typkonvertierung)
+9. [Teil 8: Exception Handling](#teil-8-exception-handling)
+    1. [Aufgabe 9: Grundlegende Fehlerbehandlung](#aufgabe-9-grundlegende-fehlerbehandlung)
+10. [Abschluss](#abschluss)
+
+---
+
 ## Projektaufgabe: Python-Projekt mit Git
 
 ### Projekt anlegen:
@@ -159,4 +189,3 @@ Definieren Sie verschiedene Literale in der `main.py`:
 
 - **Freigabe:**
   - Laden Sie alle Änderungen in Ihr Git-Repository hoch.
-
