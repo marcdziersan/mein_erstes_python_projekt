@@ -198,6 +198,13 @@ def eingaben_validieren():
     else:
         print("Fehler: Das ist keine gültige Zahl.")
 
+def pruefe_negative_zahl():
+    zahl = int(input("Gib eine Zahl ein: "))
+    if zahl < 0:
+        raise ValueError("Die Zahl darf nicht negativ sein!")
+    else:
+        print(f"Die eingegebene Zahl ist: {zahl}")
+
 
 # --- Hauptprogramm: Menü und Auswahl ---
 def main():
@@ -219,7 +226,8 @@ def main():
         print("14. Escape-Zeichen")
         print("15. Benutzereingabe")
         print("16. Eingaben validieren")
-        print("17. Beenden")
+        print("17. Negative Zahl")
+        print("18. Beenden")
 
         auswahl = input("\nWähle eine Option (1-17): ")
 
@@ -256,6 +264,8 @@ def main():
         elif auswahl == "16":
             eingaben_validieren()
         elif auswahl == "17":
+            pruefe_negative_zahl()
+        elif auswahl == "18":
             print("Beenden des Programms.")
             break
         else:
