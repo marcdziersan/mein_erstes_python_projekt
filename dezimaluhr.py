@@ -10,7 +10,6 @@ WIDTH, HEIGHT = 100, 460
 BACKGROUND_COLOR = (18, 18, 18)  # Dunkelgrau
 LED_OFF_COLOR = (128, 128, 128)  # Grau
 LED_ON_COLOR = (50, 205, 50)     # Limegrün
-BLINK_COLOR = (255, 0, 0)        # Rot
 
 # LED-Einstellungen
 LED_RADIUS = 4
