@@ -10,7 +10,7 @@ def create_database():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT,
             email TEXT,
-            alter INTEGER
+            age INTEGER
         )''')
 
         # Tabelle aufgaben erstellen
@@ -32,7 +32,7 @@ def add_default_users():
             ("Charlie", "charlie@example.com", 28)
         ]
 
-        cursor.executemany('INSERT INTO benutzer (name, email, alter) VALUES (?, ?, ?)', users)
+        cursor.executemany('INSERT INTO benutzer (name, email, age) VALUES (?, ?, ?)', users)
         conn.commit()
 
 # Teil 2: Aufgaben mit Datenbankinteraktion
@@ -50,7 +50,7 @@ def add_user():
     age = int(input("Alter: "))
     with sqlite3.connect('aufgaben.db') as conn:
         cursor = conn.cursor()
-        cursor.execute('INSERT INTO benutzer (name, email, alter) VALUES (?, ?, ?)', (name, email, age))
+        cursor.execute('INSERT INTO benutzer (name, email, age) VALUES (?, ?, ?)', (name, email, age))
         conn.commit()
 
 def update_user_email():
@@ -64,7 +64,7 @@ def update_user_email():
 def filter_users_by_age():
     with sqlite3.connect('aufgaben.db') as conn:
         cursor = conn.cursor()
-        cursor.execute('SELECT * FROM benutzer WHERE alter > 25')
+        cursor.execute('SELECT * FROM benutzer WHERE age > 25')
         users = cursor.fetchall()
         for user in users:
             print(user)
