@@ -15,11 +15,3 @@ Bitte beachte, dass in einigen der Codes Fehler enthalten sein können. Es hande
 **Fehler in den Code-Snippets sind nicht ausgeschlossen.**
 
 Falls du auf einen Fehler stößt oder etwas nicht funktioniert, wie erwartet, zögere nicht, ein Issue zu eröffnen oder einen Pull-Request mit einem Fix vorzuschlagen.
-
-## Installation
-
-Um mit den Anwendungen und Projekten in diesem Repository zu arbeiten, folge diesen Schritten:
-
-1. **Repository klonen:**
-   ```bash
-   git clone https://github.com/dein-benutzername/repository-name.git
